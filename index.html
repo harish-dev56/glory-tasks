@@ -1,109 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Glory Tasks</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glory Tasks</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      color: #333;
-    }
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+button {
+    padding: 12px 25px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    color: #ff9800;
+    text-decoration: none;
+}
+</style>
 
-    header {
-      background: #2e7d32;
-      color: white;
-      padding: 25px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    h2 {
-      color: #2e7d32;
-      margin-top: 0;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #1c1c1c;
-      color: white;
-      margin-top: 30px;
-    }
-  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Glory Tasks</h1>
-  <p>Earn rewards by completing simple tasks</p>
+    <h1>Glory Tasks</h1>
+    <p>Earn rewards by completing simple tasks</p>
+    <br>
+    <button onclick="startEarning()">Start Earning</button>
 </header>
 
 <div class="container">
 
-  <div class="card">
-    <h2>About</h2>
-    <p>
-      This is a mobile reward application where users can earn coins by completing tasks
-      such as watching ads, spinning a reward wheel, and participating in surveys.
-    </p>
-  </div>
+<div class="card">
+<h2>About</h2>
+<p>
+Glory Tasks is a mobile reward platform where users can earn virtual coins by completing simple activities such as surveys, app installs, and game tasks.
+</p>
 
-  <div class="card">
-    <h2>Features</h2>
-    <ul>
-      <li>Watch Ads & Earn Coins</li>
-      <li>Spin Wheel Rewards</li>
-      <li>Daily Bonus</li>
-      <li>Survey Tasks</li>
-      <li>Offerwall Tasks (Apps & Engagement)</li>
-    </ul>
-  </div>
+<p>
+Users earn virtual coins by completing surveys, app installs, and game tasks through third-party offerwall providers. Rewards are subject to verification and fraud checks.
+</p>
+</div>
 
-  <div class="card">
-    <h2>How It Works</h2>
-    <p>
-      Users complete tasks to earn coins. Coins can be collected and redeemed
-      according to the app reward system.
-    </p>
-  </div>
+<div class="card">
+<h2>Features</h2>
+<ul>
+<li>Offerwall Tasks (Apps & Engagement)</li>
+<li>Survey Tasks</li>
+<li>Daily Rewards</li>
+<li>Secure Reward System</li>
+</ul>
+</div>
 
-  <div class="card">
-    <h2>Contact</h2>
-    <p>Email: glorydevtech@gmail.com</p>
-  </div>
+<div class="card">
+<h2>How It Works</h2>
+<p>
+Users complete tasks such as app installs, surveys, and game levels. Once completed and verified by our partners, coins are credited to the user's account. Coins can be redeemed based on the reward system.
+</p>
+</div>
+
+<div class="card">
+<h2>Important Notice</h2>
+<p>
+We use third-party offerwall providers to deliver tasks. Completion of tasks must follow the rules provided. Fraudulent activity, VPN usage, or fake attempts may result in account suspension and loss of rewards.
+</p>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>Email: glorydevtech@gmail.com</p>
+</div>
+
+<div class="card">
+<h3>Legal</h3>
+<p>
+<a href="privacy.html">Privacy Policy</a> | 
+<a href="terms.html">Terms & Conditions</a>
+</p>
+</div>
 
 </div>
 
 <footer>
-  <p>© 2026 Glory Tasks . All rights reserved.</p>
+© 2026 Glory Tasks. All rights reserved.
 </footer>
+
+<script>
+function startEarning(){
+    alert("Offerwall will open inside the mobile app.");
+}
+</script>
 
 </body>
 </html>
